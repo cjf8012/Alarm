@@ -39,7 +39,7 @@
                                 <rect key="frame" x="109" y="478" width="156" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="End">
+                                <state key="normal" title="배경초기화">
                                     <color key="titleColor" red="1" green="0.3200477068" blue="0.28171555650000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -50,7 +50,7 @@
                                 <rect key="frame" x="23" y="376" width="343" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="1" green="0.97192886990000005" blue="0.3012778197" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>

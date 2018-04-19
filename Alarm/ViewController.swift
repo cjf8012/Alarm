@@ -31,7 +31,24 @@ class ViewController: UIViewController {
         time.text = formatter.string(from: date)
         
         if time.text == alarmTime.text{
-            view.backgroundColor = UIColor.yellow
+            let myAlertController = UIAlertController(title: "알람", message: "설정된 시간이 되었습니다.", preferredStyle: .alert)
+            
+            //AlertAction 만들기
+            let okAction = UIAlertAction(title: "확인", style: .default, handler: {(myAction:UIAlertAction) -> Void in self.view.backgroundColor = UIColor.blue
+            })
+            
+            let cancelAction = UIAlertAction(title: "취소", style: .cancel, handler: {(myAction:UIAlertAction) -> Void in self.view.backgroundColor = UIColor.white
+            })
+            
+            let testAction = UIAlertAction(title: "테스트", style: .default, handler: nil)
+            
+            //AlertAction을 AlertController에 넣기
+            myAlertController.addAction(okAction)
+            myAlertController.addAction(cancelAction)
+            myAlertController.addAction(testAction)
+            
+            //화면에 출력
+            present(myAlertController, animated: true, completion: nil)
         }
     }
     
